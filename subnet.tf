@@ -47,7 +47,7 @@ resource "aws_subnet" "swiggy-pvt-sub-3" {
   availability_zone       = "ap-south-1a"
   map_public_ip_on_launch = false
   tags = {
-    Name = "swiggy-db-sub-3"
+    Name = "swiggy-db-sub-1"
   }
 }
 resource "aws_subnet" "swiggy-pvt-sub-4" {
@@ -56,7 +56,7 @@ resource "aws_subnet" "swiggy-pvt-sub-4" {
   availability_zone       = "ap-south-1b"
   map_public_ip_on_launch = false
   tags = {
-    Name = "swiggy-db-sub-4"
+    Name = "swiggy-db-sub-2"
   }
 }
 
